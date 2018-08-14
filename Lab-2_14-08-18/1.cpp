@@ -1,9 +1,7 @@
 //First program 
 //Date: 14 August 2018
-//Author: Kartikei Mittals
+//Author: Kartikei Mittal
 #include<iostream>
-
-#define sum(x,y) x+y
 
 namespace my_namespace
 {   
@@ -26,6 +24,5 @@ int main(int argc, char* argv[])
     std::cout<<"\nBefore swap:"<<e<<" "<<f;
     my_namespace::swap(e, f);
     std::cout<<"\nAfter swap:"<<e<<" "<<f;
-    std::cout<<"\nASD"<<sum(1, 2);
     return 0;
 }
