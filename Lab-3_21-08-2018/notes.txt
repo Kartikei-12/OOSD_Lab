@@ -1,0 +1,20 @@
+
+1. using namespace std:
+    Collects all the identifier of variables, class, object and function.
+2. class(class are declared) contains data members and member functions.
+3. Three type of access specefier,
+    public,
+    protected,
+    private
+4. Scope variables
+    local
+    global
+5. Storage classes
+    auto
+    static 
+        Initialized only once at compile time.
+    register
+        To increse access speed it is used and can never use or compute it's address.
+        Can be used locally or globally.
+    extern
+6. Classroom Code: k7k3zl
