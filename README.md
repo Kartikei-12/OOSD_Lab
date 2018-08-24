@@ -3,4 +3,4 @@
 
 ### Introduction
 
-This repositry contains work done __Object Oriented System Design Lab__ Course: CSP203.
+This repositry contains work done in __Object Oriented System Design Lab__ Course: CSP203.
