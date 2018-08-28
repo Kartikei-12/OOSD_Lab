@@ -1,3 +1,6 @@
+//Author: Kartikei Mittal
+//ID: 2017KUCP1032
+
 //File containing class of bank account
 namespace assignment
 {
