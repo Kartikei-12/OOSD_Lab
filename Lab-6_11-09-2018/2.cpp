@@ -13,6 +13,7 @@ int main(int argc, char const *argv[])
     fstream F("test.txt", ios::out | ios::trunc);
     F<<12;
     F.close();
+
     F.open("test.txt", ios::in);
     if(F.is_open())
         cout<<"File opened successfully:"<<endl;
@@ -25,10 +26,13 @@ int main(int argc, char const *argv[])
         cout<<"File read failed."<<endl;   
     F.close();
 
+
+
     string st = "Kartikei Mittal", st1;
     F.open("test.txt", ios::out | ios::trunc);
     F.write((char*)&st, sizeof(st));
     F.close();
+
     F.open("test.txt", ios::in);
     if(F.is_open())
         cout<<"File opened successfully again."<<endl;
