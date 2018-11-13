@@ -70,12 +70,14 @@ class Deposit:public Account
 public:
     Deposit(double f=0, string n="", double b=0): Account(n, b){
          fees = f;
+         a=0;
     }
 
     void withdraw(double amount) {
         if((balance-(amount+fees)) >= 0)
         {
-            balance -= (amount+fees);
+            bal
+            ance -= (amount+fees);
             cout<<"Withdrawing: "<<amount+fees<<endl;
         }
         else
