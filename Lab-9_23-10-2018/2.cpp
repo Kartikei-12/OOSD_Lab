@@ -20,8 +20,7 @@ public:
         return y;
     }
 
-    void display()
-    {
+    void display() {
         cout<<"x: "<<x<<" y: "<<y<<endl;
     }
 };

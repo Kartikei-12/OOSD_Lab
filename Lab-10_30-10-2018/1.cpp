@@ -38,8 +38,7 @@ public:
     void deposit(double amount) {
         balance += amount;
     }
-    double show_balance() 
-    {
+    double show_balance() {
         cout<<"Account : "<<num<<endl
             <<"Balance: "<<balance<<endl;
     }
